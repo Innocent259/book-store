@@ -5,7 +5,6 @@ import NewBook from './NewBook';
 export default function BookApp() {
   return (
     <div>
-      {/* <Navbar /> */}
       <BookContainer />
       <NewBook />
     </div>
