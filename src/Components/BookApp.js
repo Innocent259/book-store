@@ -1,12 +1,12 @@
 import React from 'react'
-import BooksList from './BooksList'
+import BookContainer from './BookContainer'
 import NewBook from './NewBook'
 
 export default function BookApp() {
   return (
     <div>
       {/* <Navbar /> */}
-      <BooksList />
+      <BookContainer />
       <NewBook />
     </div>
   )
