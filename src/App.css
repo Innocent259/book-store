@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 5rem;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 0.5rem;
+}
