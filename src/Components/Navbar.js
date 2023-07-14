@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Navbar() {
   return (
@@ -12,5 +12,5 @@ export default function Navbar() {
         <p>Img</p>
       </div>
     </nav>
-  )
+  );
 }

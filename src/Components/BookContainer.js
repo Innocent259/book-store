@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import BookDetails from './BookDetails';
 import Progress from './Progress';
-
 
 export default function BookContainer() {
   const booksData = [
@@ -27,14 +26,15 @@ export default function BookContainer() {
       author: 'Suzanne Collins',
       pages: 50,
     },
-  ]
+  ];
   return (
-    <div>
-      { booksData.map((book) => (
-        <BookDetails key={book.id} book={book} />
-      ))
-      }
+    <>
+      <ul>
+        { booksData.map((book) => (
+          <BookDetails key={book.id} book={book} />
+        ))}
+      </ul>
       <Progress />
-    </div>
-  )
+    </>
+  );
 }

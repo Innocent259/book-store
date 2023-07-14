@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function BookDetails({book}) {
-    console.log(book)
+export default function BookDetails({ book }) {
   return (
-    <div>
-      <p>{book.author}</p>
-    </div>
-  )
+    <li>
+      {book.author}
+    </li>
+  );
 }
+BookDetails.propTypes = {
+  book: PropTypes.shape({
+    author: PropTypes.string.isRequired,
+  }).isRequired,
+};
