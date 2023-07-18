@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
+import { addBook } from '../redux/books/booksSlice';
 
 export default function NewBook() {
   const [bookData, setBookData] = useState({
-    book: '',
+    id: '',
+    title: '',
     author: '',
   });
 
+  const dispatch = useDispatch();
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setBookData((prevData) => ({
@@ -16,8 +21,11 @@ export default function NewBook() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const id = uuidv4();
+    dispatch(addBook({ ...bookData, id }));
     setBookData({
-      book: '',
+      id: '',
+      title: '',
       author: '',
     });
   };
@@ -27,8 +35,8 @@ export default function NewBook() {
       <form className="form-container" onSubmit={handleSubmit}>
         <input
           type="text"
-          name="book"
-          value={bookData.book}
+          name="title"
+          value={bookData.title}
           placeholder="Book title"
           onChange={handleInputChange}
         />
