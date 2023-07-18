@@ -18,11 +18,11 @@ export default function BookDetails({ id, title, author }) {
           <h2>{title}</h2>
           <h5>{author}</h5>
           <span>
-            <button className="btn btn-primary" type="button">
+            <button className="btn btn-primary btn-sm" type="button">
               Comment
             </button>
             <button
-              className="btn btn-danger"
+              className="btn btn-danger btn-sm"
               type="button"
               onClick={handleRemoveBook}
             >
@@ -34,7 +34,7 @@ export default function BookDetails({ id, title, author }) {
           <div className="right-content">
             <h3>Current Chapter</h3>
             <p>Chapter 7</p>
-            <button className="btn btn-info" type="button">
+            <button className="btn btn-info btn-sm" type="button">
               Update Progress
             </button>
           </div>
