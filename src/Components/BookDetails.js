@@ -43,8 +43,9 @@ export default function BookDetails({ id, title, author }) {
     </li>
   );
 }
+
 BookDetails.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
 };
