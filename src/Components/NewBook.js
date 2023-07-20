@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/booksSlice';
 
 export default function NewBook() {
   const [bookData, setBookData] = useState({
-    id: '',
     title: '',
     author: '',
   });
 
   const dispatch = useDispatch();
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setBookData((prevData) => ({
@@ -21,13 +20,13 @@ export default function NewBook() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const id = uuidv4();
-    dispatch(addBook({ ...bookData, id }));
-    setBookData({
-      id: '',
-      title: '',
-      author: '',
-    });
+    if (bookData.title.trim() !== '' && bookData.author.trim() !== '') {
+      dispatch(addBook(bookData));
+      setBookData({
+        title: '',
+        author: '',
+      });
+    }
   };
 
   return (
