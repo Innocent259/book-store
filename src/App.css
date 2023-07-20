@@ -1,19 +1,13 @@
 .App {
   text-align: center;
+  background-color: #fafafa;
+}
+
+.profile {
+  height: 2.813rem;
+  width: 2.813rem;
 }
 
 li {
   list-style: none;
-}
-
-.navigation {
-  display: flex;
-  gap: 2rem;
-  padding: 3rem 5rem;
-  align-items: center;
-}
-
-.navigation-list {
-  display: flex;
-  gap: 0.5rem;
 }
