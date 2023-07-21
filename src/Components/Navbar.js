@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { BsFillPersonFill } from 'react-icons/bs';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg align-items-center navbar-light bg-white">
+    <nav className="navbar navbar-expand-lg align-items-center bg-white">
       <div className="container-lg">
         <Link className="navbar-brand" to="/">
-          <h1 className="text-primary fw-bold fs-3">Bookstore CMS</h1>
+          <h1 className="mb-0 text-primary fw-bold fs-3" style={{ fontFamily: 'Montserrat, sans-serif' }}>Bookstore CMS</h1>
         </Link>
         <button className="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
