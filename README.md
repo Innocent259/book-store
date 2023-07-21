@@ -2,118 +2,171 @@
 
 <div align="center">
   <br/>
-  <h1><b>Bookstore</b></h1>
+
+  <h3><b>Book Store</b></h3>
+
 </div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📖 Book-Store ](#-book-store-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+    - [🚀 Live Demo ](#-live-demo-) 
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 [Book Store] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[Book Store]** is a user-friendly web application designed to assist users in efficiently managing their book collections. With its intuitive interface, users can effortlessly add and remove books, ensuring an organized and hassle-free experience. It is built with React.js and Redux
+# 📖 Book Store <a name="about-project"></a>
+
+**Book Store** is a user-friendly web application designed to assist users in efficiently managing their book collections. With its intuitive interface, users can effortlessly add and remove books, ensuring an organized and hassle-free experience. It is built with React.js and Redux and Bootstrap.
 
 ## 🛠 Built With <a name="built-with"></a>
 
--React.js, Linters, and GitHub
+### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://legacy.reactjs.org/">React</a></li>
-    <li>Technologies used Git, Github, and linters</li>
-  </ul>
-</details>
+- React
+- Redux
+- Bootstrap
 
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Project set up]**
-- **[React Routers]**
-- **[CSS Styling]**
+- **User can Add books**
+- **User can remove books**
+- **Books are stored in API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Demo](https://bookstorebs.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: 
-Installed node.js and any IDE like Visual Studio Code.
+In order to run this project you need:
+
+- `NodeJS`
+- `Code editor (VSCode)`
 
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/Innocent259/book-store
 
-Change directory book-store
+```
+  git clone https://github.com/Innocent259/book-store
+```
+
 ### Install
 
 Install this project with:
 
-Run npm install --save to install dependencies of this project.
+```
+  cd book-store
+  npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
-Run npm start to view the project on local host(npm start) 
+
+```
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using your own `Netlify`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Innocent Ndahimana**
 
-- GitHub: [@innocent259](https://github.com/Innocent259)
-- LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/innocent-ndahimana-b4b870245/)
+-  [GitHub](https://github.com/Innocent259)
+-  [LinkedIn](https://www.linkedin.com/in/innocent259/)
+-  [Twitter](https://twitter.com/ndahimana259)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Project functionalities]**
-- [ ] **[Use Redux to manage states]**
-- [ ] **[Styling project]**
-- [ ] **[Apply Dark mode]**
-- [ ] **[Deploy project]**
-
+- [ ] **Add comment functionalities**
+- [ ] **Add edit functionalities**
+- [ ] **Allow user to choose books categories**
+- [ ] **Improve UX**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page] and add new issue.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a star if you like this project!
+If you like this project consider giving it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for allowing me to work on this project 
-It's a good experience, I can't express how I feel after learning and implementing what I learned in this project.
+ I would like to thank Microverse for allowing me to work on this project It's a good experience, I can't express how I feel after learning and implementing what I learned in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT] licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
