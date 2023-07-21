@@ -46,7 +46,7 @@ export default function NewBook() {
           placeholder="Author"
           onChange={handleInputChange}
         />
-        <button type="submit">Add book</button>
+        <button className="btn btn-primary btn-sm" type="submit">ADD BOOK</button>
       </form>
     </div>
   );
