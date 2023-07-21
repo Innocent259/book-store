@@ -4,7 +4,7 @@ import NewBook from './NewBook';
 
 export default function BookApp() {
   return (
-    <div>
+    <div className="container-lg">
       <BookContainer />
       <NewBook />
     </div>
