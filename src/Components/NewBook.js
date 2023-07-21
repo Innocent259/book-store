@@ -31,7 +31,7 @@ export default function NewBook() {
 
   return (
     <div className="container-lg ps-3">
-      <h2 className="fs-4 text-muted">ADD BOOK</h2>
+      <h2 className="fs-5 text-muted" style={{ fontFamily: 'Montserrat, sans-serif' }}>ADD BOOK</h2>
       <form onSubmit={handleSubmit}>
         <div className="row align-items-center">
           <div className="col-md-7">
