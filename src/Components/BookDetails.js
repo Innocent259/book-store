@@ -15,11 +15,11 @@ export default function BookDetails({
 
   return (
     <li>
-      <div className="row row my-5 p-3 bg-white border border-dark">
+      <div className="row my-5 p-3 bg-white">
         <div className="col-md-6">
-          <p>{category}</p>
-          <div><h2 className="fs-5">{title}</h2></div>
-          <div><h5 className="mt-0 text-muted fs-6">{author}</h5></div>
+          <p className="fs-6 mb-0 text-secondary">{category}</p>
+          <div><h2 className="fs-5 mb-0">{title}</h2></div>
+          <div><h5 className="mt-0 fs-6" style={{ color: '#4386bf' }}>{author}</h5></div>
           <span>
             <button className="btn btn-default btn-sm text-primary" type="button">
               Comment
@@ -36,15 +36,14 @@ export default function BookDetails({
             </button>
           </span>
         </div>
-        <div className="col-md-3 d-flex align-items-center gap-4">
+        <div className="col-md-3 d-flex align-items-center">
           <div className="rectangle">
-            <div className="inner-b border rounded-circle" />
+            <div className="inner-b" />
           </div>
           <div className="d-flex flex-column">
-            <p className="mb-0 fs-6">64%</p>
-            <small className="fs-6">completed</small>
+            <p className="mb-0 fs-5">64%</p>
+            <small className="fs-6 text-muted">completed</small>
           </div>
-          <div className="align-self-end"><hr /></div>
         </div>
         <div className="col-md-3">
           <div>
