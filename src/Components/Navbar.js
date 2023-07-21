@@ -26,7 +26,7 @@ export default function Navbar() {
           </div>
         </div>
         <div className="d-none d-md-block border border-secondary rounded-circle profile">
-          <div className="text-primary fs-3"><BsFillPersonFill /></div>
+          <div className="text-primary text-center fs-3"><BsFillPersonFill /></div>
         </div>
       </div>
     </nav>
