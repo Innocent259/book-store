@@ -1,5 +1,6 @@
 .App {
   background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
 }
 
 .profile {
@@ -18,20 +19,21 @@ li {
 }
 
 .inner-b {
-  width: 4.25rem;
-
-  height: 4.25rem;
-
-  border-style: solid;
-
-  border-width: 5px;
-
-  border-image-source: linear-gradient(to bottom, var(--medium-blue), #379cf6);
-
-  border-image-slice: 1;
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: relative;
+  border: 5px solid #4386bf;
+  border-left-color: #b3adad;
+  rotate: 30deg;
 }
 
 hr {
-  width: 0.125rem;
-  height: 4.375rem;
+  border: 1px solid #b3adad;
+}
+
+input {
+  height: 2rem;
+  outline: none;
 }
