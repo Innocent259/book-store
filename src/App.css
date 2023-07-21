@@ -1,19 +1,80 @@
 .App {
-  text-align: center;
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+  height: 2.813rem;
+  width: 2.813rem;
 }
 
 li {
   list-style: none;
 }
 
-.navigation {
-  display: flex;
-  gap: 2rem;
-  padding: 3rem 5rem;
-  align-items: center;
+.rectangle {
+  width: 5.625rem;
+  height: 5.62rem;
+  padding: 0.62rem 0.625rem 0.75rem 0.75rem;
 }
 
-.navigation-list {
-  display: flex;
-  gap: 0.5rem;
+.inner-b {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: relative;
+  border: 5px solid #4386bf;
+  border-left-color: #b3adad;
+  rotate: 30deg;
+}
+
+hr {
+  border: 1px solid #b3adad;
+}
+
+.title {
+  height: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.book-title {
+  height: 1.813rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.add-button {
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+input {
+  height: 2.813rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  outline: none;
+}
+
+.books {
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.progression {
+  width: 4.25rem;
+  height: 2.438rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #121212;
 }
