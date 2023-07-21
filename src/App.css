@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background-color: #fafafa;
 }
 
@@ -10,4 +9,29 @@
 
 li {
   list-style: none;
+}
+
+.rectangle {
+  width: 5.625rem;
+  height: 5.62rem;
+  padding: 0.62rem 0.625rem 0.75rem 0.75rem;
+}
+
+.inner-b {
+  width: 4.25rem;
+
+  height: 4.25rem;
+
+  border-style: solid;
+
+  border-width: 5px;
+
+  border-image-source: linear-gradient(to bottom, var(--medium-blue), #379cf6);
+
+  border-image-slice: 1;
+}
+
+hr {
+  width: 0.125rem;
+  height: 4.375rem;
 }
