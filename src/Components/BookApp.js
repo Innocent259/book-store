@@ -6,6 +6,7 @@ export default function BookApp() {
   return (
     <div className="container-lg">
       <BookContainer />
+      <hr />
       <NewBook />
     </div>
   );
